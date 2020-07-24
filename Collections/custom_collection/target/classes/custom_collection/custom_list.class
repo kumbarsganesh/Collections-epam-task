@@ -1,0 +1,21 @@
+Êþº¾   1 c  custom_collection/custom_list  java/lang/Object LOGGER Ljava/util/logging/Logger; <clinit> ()V Code
+    java/lang/Class   getName ()Ljava/lang/String;
+    java/util/logging/Logger   	getLogger .(Ljava/lang/String;)Ljava/util/logging/Logger;	     LineNumberTable LocalVariableTable <init>
+     this Lcustom_collection/custom_list; main ([Ljava/lang/String;)V " custom_collection/List
+ ! 
+ % ' & java/lang/Integer ( ) valueOf (I)Ljava/lang/Integer;
+ ! + , - add_element (Ljava/lang/Object;)V / ELEMENTS IN THE LIST ARE:
+  1 2 3 info (Ljava/lang/String;)V 5 java/lang/StringBuilder
+ 4 
+ ! 8 9 : get_element (I)Ljava/lang/Object;
+ 4 < = > append -(Ljava/lang/Object;)Ljava/lang/StringBuilder; @  
+ 4 B = C -(Ljava/lang/String;)Ljava/lang/StringBuilder;
+ 4 E F  toString
+ ! H I J 
+sizeoflist ()I L REMOVE ELEMENT 4:
+ 4 N  3
+ ! P Q : remove_element S ELEMENT AT INDEX 3: U SIZE OF LIST:
+ 4 W = X (I)Ljava/lang/StringBuilder; args [Ljava/lang/String; list1 Lcustom_collection/List; i I LocalVariableTypeTable -Lcustom_collection/List<Ljava/lang/Integer;>; 
+SourceFile custom_list.java !                	   ,      ¶ 
+¸ ³ ±                      	   /     *· ±                        	     	  }     å» !Y· #L+¸ $¶ *+¸ $¶ *+¸ $¶ *+W¸ $¶ *+[¸ $¶ *+¸ $¶ *+U¸ $¶ *+,¸ $¶ *+¸ $¶ *+¸ $¶ *² .¶ 0=§ #² » 4Y· 6+¶ 7¶ ;?¶ A¶ D¶ 0„+¶ G¡ÿÛ² » 4YK· M+¶ O¶ ;¶ D¶ 0² » 4YR· M+¶ 7¶ ;¶ D¶ 0² » 4YT· M+¶ G¶ V¶ D¶ 0±       N    
+       #  ,  5  >  G  P  Y  b  j  o  Œ  —  ±  Ë  ä          å Y Z    Ý [ \  l + ] ^  _      Ý [ `   a    b
